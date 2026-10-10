@@ -1,7 +1,7 @@
 import { DisplayMode } from './data.js';
 
 const settings = {
-    direction: 'UP',
+    direction: 'BOTH_SPLIT',
     debugMode: false,
     displayMode: DisplayMode.NT4,
     dataSource: "ONLINE",
