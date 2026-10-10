@@ -12,7 +12,7 @@
     background-color: rgba(0, 0, 0, 0.65);
     backdrop-filter: blur(8px);
     font-family: var(--config-fonts);
-    display: flex;
+    display: none;
     color: white;
     line-height: 1.5;
     transition: opacity .25s, visibility .25s, transform .25s;
@@ -28,6 +28,7 @@
     opacity: 0;
     visibility: hidden;
     transform: translateY(40px);
+    display: none;
 }
 
 .pids-preview {
