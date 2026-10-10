@@ -71,6 +71,9 @@ async function setup() {
     $("#configure-button").click(() => {
         document.querySelector("#overlay").classList.remove("hidden");
     });
+    
+    // 💡 強制喺載入時將 overlay 隱藏，防止任何自動彈出
+    document.querySelector("#overlay")?.classList.add("hidden");
 }
 
 export default { setup, draw };
