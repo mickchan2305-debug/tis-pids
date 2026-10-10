@@ -3,16 +3,16 @@ import { DisplayMode } from './data.js';
 const settings = {
     direction: 'UP',
     debugMode: false,
-    displayMode: DisplayMode.NORMAL,
+    displayMode: DisplayMode.NT4,
     dataSource: "ONLINE",
-    route: "TCL",
-    station: "HOK",
+    route: "TML",
+    station: "TIS",
     adhoc: "NONE",
     showPlatform: true,
     showingSpecialMessage: false,
     uiPreset: null,
     rtHeader: false,
-    firstTrainCutoff: 20
+    firstTrainCutoff: 99
 }
 
 export default settings;
